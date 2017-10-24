@@ -19,7 +19,7 @@ div {
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .btn-subtle {
@@ -29,7 +29,7 @@ div {
   padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .btn-ghost {
@@ -39,15 +39,15 @@ div {
   border: solid #000;
   border-radius: 8px;
   border-width: 3px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .btn-warning {
   color: #fff;
   background-color: #f33;
   text-decoration: none;
-  padding: .4em .75em .3em;
+  padding: .7em .75em;
   border-radius: 8px;
   border-width: 3px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
