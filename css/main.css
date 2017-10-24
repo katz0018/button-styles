@@ -15,3 +15,43 @@ li {
 a {
   text-decoration: none;
 }
+
+.one {
+  font-size: 1.125rem;
+}
+
+.two {
+  font-size: .875rem;
+}
+
+.three {
+  font-size: 1.5rem;
+}
+
+.p-btn {
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+.p-btn-subtle {
+  background: #ccc;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+.p-btn-ghost {
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  color: black;
+}
+
+.p-btn-warning {
+  color: #fff;
+  background: #f33;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
