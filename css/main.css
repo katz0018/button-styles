@@ -7,51 +7,111 @@ html {
   box-sizing: inherit;
 }
 
-li {
+nav ul li {
   list-style-type: none;
   text-align: center;
 }
 
+nav ul {
+  margin-left: 0;
+}
 a {
   text-decoration: none;
 }
 
-.one {
-  font-size: 1.125rem;
-}
-
-.two {
-  font-size: .875rem;
-}
-
-.three {
-  font-size: 1.5rem;
-}
-
-.p-btn {
+.btn {
   background: #333;
   color: #fff;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  font-size: 1.125rem;
 }
 
-.p-btn-subtle {
+.btn-subtle {
   background: #ccc;
   color: #fff;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  font-size: 1.125rem;
 }
 
-.p-btn-ghost {
+.btn-ghost {
   border: 3px solid black;
   border-radius: 8px;
   padding: .4em .75em .3em;
   color: black;
+  font-size: 1.125rem;
 }
 
-.p-btn-warning {
+.btn-warning {
   color: #fff;
   background: #f33;
   border-radius: 8px;
   padding: .4em .75em .3em;
+  font-size: 1.125rem;
+}
+
+.two .btn {
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: .875rem;
+}
+
+.two .btn-subtle {
+  background: #ccc;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  margin-top: 4;
+  font-size: .875rem;
+}
+
+.two .btn-ghost {
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  color: black;
+  font-size: .875rem;
+}
+
+.two .btn-warning {
+  color: #fff;
+  background: #f33;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: .875rem;
+}
+
+.three .btn {
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: 1.5rem;
+}
+
+.three .btn-subtle {
+  background: #ccc;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: 1.5rem;
+}
+
+.three .btn-ghost {
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.three .btn-warning {
+  color: #fff;
+  background: #f33;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  font-size: 1.5rem;
 }
