@@ -24,28 +24,28 @@ a {
   background: #333;
   color: #fff;
   border-radius: 8px;
-  /*padding: .4em .75em .3em;*/
+  padding: .75em;
 }
 
 .btn-subtle {
   background: #ccc;
   color: #fff;
   border-radius: 8px;
-  /*padding: .4em .75em .3em;*/
+  padding: .75em;
 }
 
 .btn-ghost {
   border: 3px solid black;
   border-radius: 8px;
-  /*padding: .4em .75em .3em;*/
   color: black;
+  padding: .75em;
 }
 
 .btn-warning {
   color: #fff;
   background: #f33;
   border-radius: 8px;
-  /*padding: .4em .75em .3em;*/
+  padding: .75em;
 }
 
 .one a {
@@ -54,11 +54,9 @@ a {
 }
 
 .btn-small a {
-  padding: .4em .75em .3em;
   font-size: .875rem;
 }
 
 .btn-big a {
-  padding: .4em .75em .3em;
   font-size: 1.5rem;
 }
