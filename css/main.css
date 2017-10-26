@@ -7,75 +7,79 @@ html {
   box-sizing: inherit;
 }
 
-nav ul li {
-  list-style-type: none;
-  text-align: center;
-  margin: 2em;
-}
-
-a {
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .75em;
+main{
+ border: 3px;
+ border-radius: 8px;
 }
 
 .btn {
-  display: inline-block;
-  background: #333;
+  font-size: 1.125rem;
+  background: black;
   color: #fff;
-  padding: .4em;
-}
-
-.btn:hover {
-  background: #000;
 }
 
 .btn-subtle {
+  font-size: 1.125rem;
   background: #ccc;
   color: #fff;
 }
 
-.btn-subtle:hover {
-  background: #666;
-}
-
 .btn-ghost {
+  font-size: 1.125rem;
+  background: #fff;
   color: black;
 }
 
-.btn-ghost:hover {
-  background: #666;
-  color: #fff;
-}
-
 .btn-warning {
-  color: #fff;
-  background: #f33;
-}
-
-.btn-warning:hover {
-  background: #933;
-}
-
-.one a {
   font-size: 1.125rem;
+  background: #f33;
+  color: #fff;
 }
 
-.btn-small {
+.btn-small{
   font-size: .875rem;
+  background: black;
+  color: #fff;
+}
+
+.btn-subtle-small {
+  font-size: .875rem;
+  background: black;
+  color: #fff;
+}
+
+.btn-ghost-small {
+  font-size: .875rem;
+  background: #fff;
+  color: black;
+}
+
+.btn-warning-small {
+  font-size: .875rem;
+  background: #f33;
+  color: #fff;
 }
 
 .btn-big {
   font-size: 1.5rem;
+  background: black;
+  color: #fff;
 }
 
-div:first-child a {
+.btn-subtle-big {
+  font-size: 1.5rem;
+  background: black;
+  color: #fff;
 }
 
-div:nth-child(2) a {
-
+.btn-ghost-big {
+  font-size: 1.5rem;
+  background: #fff;
+  color: black;
 }
 
-ul:nth-last-child(3) a {
-  border: 3px solid black;
+.btn-warnin-big {
+  font-size: 1.5rem;
+  background: #f33;
+  color: #fff;
 }
