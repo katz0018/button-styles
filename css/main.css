@@ -15,45 +15,64 @@ nav ul li {
 
 a {
   text-decoration: none;
+  border-radius: 8px;
+  padding: .75em;
 }
 
 .btn {
+  display: inline-block;
   background: #333;
   color: #fff;
-  border-radius: 8px;
-  padding: .75em;
+  padding: .4em;
+}
+
+.btn:hover {
+  background: #000;
 }
 
 .btn-subtle {
   background: #ccc;
   color: #fff;
-  border-radius: 8px;
-  padding: .75em;
+}
+
+.btn-subtle:hover {
+  background: #666;
 }
 
 .btn-ghost {
-  border: 3px solid black;
-  border-radius: 8px;
   color: black;
-  padding: .75em;
+}
+
+.btn-ghost:hover {
+  background: #666;
+  color: #fff;
 }
 
 .btn-warning {
   color: #fff;
   background: #f33;
-  border-radius: 8px;
-  padding: .75em;
+}
+
+.btn-warning:hover {
+  background: #933;
 }
 
 .one a {
-  padding: .75em;
   font-size: 1.125rem;
 }
 
-.button-small a {
+.btn-small {
   font-size: .875rem;
 }
 
-.button-big a {
+.btn-big {
   font-size: 1.5rem;
+}
+
+div:first-child a {
+  border: 3px solid black;
+}
+
+div:nth-child(2) a {
+
 }
