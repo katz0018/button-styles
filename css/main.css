@@ -70,9 +70,12 @@ a {
 }
 
 div:first-child a {
-  border: 3px solid black;
 }
 
 div:nth-child(2) a {
 
+}
+
+ul:nth-last-child(3) a {
+  border: 3px solid black;
 }
